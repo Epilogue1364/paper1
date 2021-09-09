@@ -1,5 +1,6 @@
 %测试功能
 %查看是否能提交
+%重复测试
 file_name = ['D:\OneDrive\桌面\resultPythonTest.xlsx'];
 fid = fopen(file_name, 'r');%打开要读取的文件
 jxw0=0.4;%槽宽初始值
