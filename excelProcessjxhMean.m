@@ -2,7 +2,7 @@
 %用于绘图，看每个齿宽中，最大ΔB所对应的槽宽
 clear;
 clc;
-file_name = ['D:\OneDrive\桌面\resultPythonTest.xlsx'];
+file_name = ['D:\OneDrive\桌面\resultMean.xlsx'];
 fid = fopen(file_name, 'r');%打开要读取的文件
 jxh0=0.3;%槽高初始值
 cw0=0.12;%齿宽初始值
@@ -33,8 +33,8 @@ for jxh=jxh0:s1:jxh1
             end
         end
         list_cell = cell2mat(list_cell);
-        resultmax=max(list_cell);
-        output(jxhcell,cwcell)=resultmax;
+        resultmean=mean(list_cell);
+        output(jxhcell,cwcell)=resultmean;
         cwcell=cwcell+1;
         list_cell = {};
         output;

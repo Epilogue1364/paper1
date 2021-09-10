@@ -42,3 +42,4 @@ for jxw=jxw0:s1:jxw1
     output 
 end
 xlswrite(file_name, output', 2, 'B2') %输出结果为output的转置，为了后面分析方便而做的更改，该前面的输出顺序太麻烦，所以直接转置
+fclose(fid);
