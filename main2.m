@@ -3,16 +3,30 @@ clc;
 tic;
 %提示
 % bar = waitbar(0,'继续将会删除以往数据');   % waitbar显示进度条
-% % %删除文件夹
-%  [status, message, messageid] = rmdir('resultTest', 's');
-% %创建文件夹
-% mkdir resultTest\data
-% mkdir resultTest\picture
-% mkdir resultTest\Line
-% %声明地址
-file_path = ['D:\学习资料\研究生阶段\磁流体实验室\1小论文1\0matlab联调\model2\'];
+while 1
+    fileS= str2num(char(inputdlg('请输入:0表示不删除原文件，1表示删除原文件','注意')))
+    if fileS==1
+        % %删除文件夹
+        [status, message, messageid] = rmdir('resultTest', 's');
+        %创建文件夹
+        mkdir resultB\data
+        mkdir resultB\picture
+        mkdir resultB\Line
+        break
+    elseif fileS==0
+        break
+    end
+end
+
+
+
+    
+
+
+%声明地址
+file_path = ['D:\学习资料\研究生阶段\GitHub\paper1\']
 model_path = [file_path, 'Model.mph'];
-result_path = [file_path,'resultAll\'];
+result_path = [file_path,'resultB\'];
 data_path = [result_path,'data\'];
 xian_path = [result_path,'Line\'];
 tu_path = [result_path,'picture\'];

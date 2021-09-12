@@ -157,7 +157,7 @@ model.component('comp1').physics('mfnc').feature('mfc3').selection.set([2 6 7]);
 model.component('comp1').mesh('mesh1').create('fq1', 'FreeQuad');
 model.component('comp1').mesh('mesh1').create('ftri1', 'FreeTri');
 model.component('comp1').mesh('mesh1').feature('fq1').selection.geom('geom1', 2);
-model.component('comp1').mesh('mesh1').feature('fq1').selection.set([3 4]);
+model.component('comp1').mesh('mesh1').feature('fq1').selection.set([3 4 5]);%添加中间区域
 model.component('comp1').mesh('mesh1').feature('fq1').create('size1', 'Size');
 model.component('comp1').mesh('mesh1').feature('ftri1').create('size1', 'Size');
 
@@ -341,6 +341,8 @@ model.sol('sol1').create('s1', 'Stationary');
 model.sol('sol1').feature('s1').create('fc1', 'FullyCoupled');
 model.sol('sol1').feature('s1').feature.remove('fcDef');
 
+
+
 model.result.dataset.create('rev1', 'Revolve2D');
 model.result.dataset.create('cln1', 'CutLine2D');
 model.result.dataset.create('cln2', 'CutLine2D');
@@ -368,6 +370,7 @@ model.sol('sol1').feature('s1').feature('dDef').label([native2unicode(hex2dec({'
 model.sol('sol1').feature('s1').feature('aDef').label([native2unicode(hex2dec({'9a' 'd8'}), 'unicode')  native2unicode(hex2dec({'7e' 'a7'}), 'unicode') ' 1']);
 model.sol('sol1').feature('s1').feature('aDef').set('cachepattern', true);
 model.sol('sol1').feature('s1').feature('fc1').label([native2unicode(hex2dec({'51' '68'}), 'unicode')  native2unicode(hex2dec({'80' '26'}), 'unicode')  native2unicode(hex2dec({'54' '08'}), 'unicode') ' 1.1']);
+model.sol("sol1").feature("s1").feature("fc1").set("maxiter", 100);
 model.sol('sol1').runAll;
 
 model.result.dataset('dset1').set('frametype', 'material');
