@@ -17,12 +17,7 @@ while 1
         break
     end
 end
-
-
-
-    
-
-
+ 
 %声明地址
 file_path = ['D:\学习资料\研究生阶段\GitHub\paper1\']
 model_path = [file_path, 'Model.mph'];
