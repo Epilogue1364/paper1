@@ -1,4 +1,4 @@
-function [h,m] = run(file_path, clearValue, jxh0, jxw0, cw0, jxh1, jxw1, cw1, s1, s2, s3)
+function out = run(file_path, clearValue, jxh0, jxw0, cw0, jxh1, jxw1, cw1, s1, s2, s3)
 clear;
 clc;
 tic;
