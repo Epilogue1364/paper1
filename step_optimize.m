@@ -1,16 +1,16 @@
 clear;
 clc;
 tic;
-% % %删除文件夹
-% [status, message, messageid] = rmdir('resultStepOptimize', 's');
-% %创建文件夹
-% mkdir resultStepOptimize\data
-% mkdir resultStepOptimize\picture
-% mkdir resultStepOptimize\Line
+% %删除文件夹
+[status, message, messageid] = rmdir('resultStepOptimize2', 's');
+%创建文件夹
+mkdir resultStepOptimize2\data
+mkdir resultStepOptimize2\picture
+mkdir resultStepOptimize2\Line
 %声明地址
 file_path = ['E:\GitHub\paper1\'];
 model_path = [file_path, 'Model.mph'];
-result_path = [file_path,'resultStepOptimize\'];
+result_path = [file_path,'resultStepOptimize2\'];
 data_path = [result_path,'data\']
 xian_path = [result_path,'Line\'];
 tu_path = [result_path,'picture\'];
@@ -46,7 +46,7 @@ cw = [ num2str(cwn),'[mm]']
 jx = [ num2str(jxn),'[mm]']
 wc = [ num2str(wcn),'[mm]']
 name_path=['jxh',num2str(jxh),'-','jxw',num2str(jxw),'-','cw',num2str(cw),'-','cln',num2str(cln-1),'-','crn',num2str(crn-1),'-']
-%Model(jxh, jxw, cw, jx, wc, cnz, cln, crn, model_path, data_path, xian_path, tu_path, name_path);
+Model(jxh, jxw, cw, jx, wc, cnz, cln, crn, model_path, data_path, xian_path, tu_path, name_path);
 site=['A',num2str(count+2)];
 analyse(jxh, jxw, cw, cln, crn, data_path, xlsx_path, name_path, site);
 count = count + 1;

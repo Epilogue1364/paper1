@@ -157,7 +157,7 @@ model.component('comp1').physics('mfnc').feature('mfc3').selection.set([2 6 7]);
 model.component('comp1').mesh('mesh1').create('fq1', 'FreeQuad');
 model.component('comp1').mesh('mesh1').create('ftri1', 'FreeTri');
 model.component('comp1').mesh('mesh1').feature('fq1').selection.geom('geom1', 2);
-model.component('comp1').mesh('mesh1').feature('fq1').selection.set([3 4 5]);%添加中间区域
+model.component('comp1').mesh('mesh1').feature('fq1').selection.set([3 4]);%去除中间区域
 model.component('comp1').mesh('mesh1').feature('fq1').create('size1', 'Size');
 model.component('comp1').mesh('mesh1').feature('ftri1').create('size1', 'Size');
 
