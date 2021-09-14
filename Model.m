@@ -1,4 +1,4 @@
-function out = Model(jxh, jxw, cw, jx, wc, cnz, cln, crn, model_path, data_path, xian_path, tu_path)
+function out = Model(jxh, jxw, cw, jx, wc, cnz, cln, crn, model_path, data_path, xian_path, tu_path, name_path)
 %
 % Model_maybe_perfect.m
 %
@@ -393,11 +393,11 @@ model.result('pg1').feature('lngr2').set('xdatadescr', ['z ' native2unicode(hex2
 model.result('pg1').feature('lngr2').set('resolution', 'normal');
 model.result('pg2').feature('surf1').set('colortable', 'RainbowLight');
 model.result('pg2').feature('surf1').set('resolution', 'normal');
-model.result.export('plot1').set('filename', [data_path, 'Line-jxh',num2str(jxh),'-','jxw',num2str(jxw),'-','cw',num2str(cw),'-','normB_R.txt']);
+model.result.export('plot1').set('filename', [data_path, name_path, 'Line-normB_R.txt']);
 model.result.export('plot2').set('plot', 'lngr2');
-model.result.export('plot2').set('filename', [data_path, 'Line-jxh',num2str(jxh),'-','jxw',num2str(jxw),'-','cw',num2str(cw),'-','normB_L.txt']);
+model.result.export('plot2').set('filename', [data_path, name_path, 'Line-normB_L.txt']);
 model.result.export('img1').set('sourceobject', 'pg1');
-model.result.export('img1').set('pngfilename', [xian_path,'Line-jxh',num2str(jxh),'-','jxw',num2str(jxw),'-','cw',num2str(cw),'-','normB.png']);
+model.result.export('img1').set('pngfilename', [xian_path, name_path, 'Xian-normB.png']);
 model.result.export('img1').set('alwaysask', true);
 model.result.export('img1').set('logo1d', false);
 model.result.export('img1').set('size', 'manualprint');
@@ -440,7 +440,7 @@ model.result.export('img2').set('unit', 'mm');
 model.result.export('img2').set('width', 173);
 model.result.export('img2').set('height', 108);
 model.result.export('img2').set('sizedesc', '2724 x 1701 px');
-model.result.export('img2').set('pngfilename', [tu_path,'Picture-jxh',num2str(jxh),'-','jxw',num2str(jxw),'-','cw',num2str(cw),'-','normB.png']);
+model.result.export('img2').set('pngfilename', [tu_path, name_path, 'tu-normB.png']);
 model.result.export('img2').set('alwaysask', true);
 model.result.export('img2').set('size', 'manualprint');
 model.result.export('img2').set('unit', 'mm');
