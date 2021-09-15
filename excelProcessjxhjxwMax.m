@@ -18,7 +18,7 @@ s2=0.02;
 jxwcell=2;%用于输出结果时的坐标
 cwcell=2;%用于输出结果时的坐标
 list_cell = {};%储存
-output=[];
+output=[12,9];
 list_data=xlsread(file_name, 1, 'A2:I793')%将数据一同从excel中读出
 %因为读取数据所需要的运算量比较大，如果分步读运行会非常慢
 for jxw=jxw0:s1:jxw1
@@ -48,5 +48,5 @@ for jxw=jxw0:s1:jxw1
     jxwcell=jxwcell+1;
     output 
 end
-xlswrite(file_name, output', 6, 'A1') %输出结果为output的转置，为了后面分析方便而做的更改，该前面的输出顺序太麻烦，所以直接转置
+xlswrite(file_name, output, 6, 'A1') %输出结果为output的转置，为了后面分析方便而做的更改，该前面的输出顺序太麻烦，所以直接转置
 fclose(fid);
