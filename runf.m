@@ -4,17 +4,6 @@ clc;
 tic;
 
 while 1
-    if clearValue==1 %重置文件夹后开始计算
-        % %删除文件夹
-        [status, message, messageid] = rmdir('resultTest', 's');
-        %创建文件夹
-        mkdir resultB\data
-        mkdir resultB\picture
-        mkdir resultB\Line
-    elseif fileS==0 %不清空文件夹，直接开始计算
-    else
-        break;%如果没有选择文件夹处理方式，直接结束程序
-    end
     %声明地址
     model_path = [file_path, '\Model.mph']
     result_path = [file_path,'\resultB\']
