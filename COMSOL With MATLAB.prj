@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="41729830" file="D:\GitHub\paper1\COMSOL With MATLAB.prj" location="D:\GitHub\paper1" name="COMSOL With MATLAB" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="869605602" file="D:\GitHub\paper1\COMSOL With MATLAB.prj" location="D:\GitHub\paper1" name="COMSOL With MATLAB" target="target.mlapps" target-name="打包为 App">
     <param.appname>COMSOL With MATLAB</param.appname>
     <param.authnamewatermark>王璐</param.authnamewatermark>
     <param.email>wanglu_1998927@outlook.com</param.email>
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary />
     <param.description />
-    <param.screenshot>C:\Users\lenovo\AppData\Local\Temp\tpad5cfaee_5076_4a91_a798_f149550ff836.png</param.screenshot>
+    <param.screenshot>C:\Users\WangLu\AppData\Local\Temp\tp176dffb9_4915_48d2_ba65_d44f0f7cc2f6.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
@@ -43,7 +43,7 @@
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>D:\Softwares\MATLAB2021</root>
+      <root>D:\All Softwares\MATLAB2021\R2021a</root>
       <toolboxes />
     </matlab>
     <platform>
