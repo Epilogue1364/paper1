@@ -7,7 +7,7 @@ while 1
     fileS= str2num(char(inputdlg('请输入:0表示不删除原文件，1表示删除原文件','注意')))
     if fileS==1
         % %删除文件夹
-        [status, message, messageid] = rmdir('resultTest', 's');
+          = rmdir('resultTest', 's');
         %创建文件夹
         mkdir resultB\data
         mkdir resultB\picture
