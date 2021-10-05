@@ -1,6 +1,6 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="33669861" file="D:\GitHub\paper1\Procoss-MF.prj" location="D:\GitHub\paper1" name="Procoss-MF" target="target.mlapps" target-name="打包为 App">
-    <param.appname>Procoss-MF</param.appname>
+  <configuration build-checksum="648054069" file="D:\GitHub\paper1\PECCAS-MFS.prj" location="D:\GitHub\paper1" name="PECCAS-MFS" target="target.mlapps" target-name="打包为 App">
+    <param.appname>PECCAS-MFS</param.appname>
     <param.authnamewatermark>王璐</param.authnamewatermark>
     <param.email>20121364@bjtu.edu.cn</param.email>
     <param.company>北京交通大学</param.company>
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary />
     <param.description />
-    <param.screenshot>C:\Users\WangLu\AppData\Local\Temp\tp83f80f55_ec76_4586_b603_b0bb7e2a7a7d.png</param.screenshot>
+    <param.screenshot>C:\Users\lenovo\AppData\Local\Temp\tpa5b0c9f3_ecc0_4a05_870d_8df8dc9cdc76.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
@@ -32,7 +32,6 @@
       <file>${PROJECT_ROOT}\Calculate.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>${MATLAB_ROOT}\toolbox\local\userpath.m</file>
       <file>${PROJECT_ROOT}\BCalculate.m</file>
       <file>${PROJECT_ROOT}\file.jpg</file>
       <file>${PROJECT_ROOT}\open.png</file>
@@ -44,6 +43,7 @@
       <file>${PROJECT_ROOT}\右箭头.png</file>
       <file>${PROJECT_ROOT}\左箭头.png</file>
       <file>${PROJECT_ROOT}\请等待图片.png</file>
+      <file>${MATLAB_ROOT}\toolbox\local\userpath.m</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
@@ -52,7 +52,7 @@
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>D:\All Softwares\MATLAB2021\R2021a</root>
+      <root>D:\Softwares\MATLAB2021</root>
       <toolboxes />
     </matlab>
     <platform>
