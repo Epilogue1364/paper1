@@ -10,7 +10,7 @@ mkdir resultTest\data
 mkdir resultTest\picture
 mkdir resultTest\Line
 %声明地址
-file_path = ['D:\学习资料\研究生阶段\磁流体实验室\1小论文1\0matlab联调\model2\'];
+file_path = ['D:\GitHub\paper1\'];
 model_path = [file_path, 'Model.mph'];
 result_path = [file_path,'resultTest\'];
 data_path = [result_path,'data\'];
@@ -23,9 +23,9 @@ jxh0=0.3;%%槽高范围0.3-1.0mm
 jxw0=0.4;%%槽宽范围0.4-1.4mm
 cw0=0.12;%%极齿宽范围0.12-0.28mm
 %设置变量上限
-jxh1=1.0;%%槽高范围0.3-1.0mm
-jxw1=1.4;%%槽宽范围0.4-1.4mm
-cw1=0.28;%%极齿宽范围0.12-0.28mm
+jxh1=0.4;%%槽高范围0.3-1.0mm
+jxw1=0.5;%%槽宽范围0.4-1.4mm
+cw1=0.12;%%极齿宽范围0.12-0.28mm
 %步进
 s1=0.1;%%槽高步进
 s2=0.1;%%槽宽步进
@@ -59,7 +59,8 @@ for jxhn=jxh0:s1:jxh1
             cln = clnn;
             crn = crnn;
             toc;
-            %Model(jxh, jxw, cw, jx, wc, cnz, cln, crn, model_path, data_path, xian_path,tu_path); 
+            name_path=['jxh',num2str(jxh),'-','jxw',num2str(jxw),'-','cw',num2str(cw),'-','cln',num2str(cln-1),'-','crn',num2str(crn-1),'-']
+            Model(jxh, jxw, cw, jx, wc, cnz, cln, crn, model_path, data_path, xian_path,tu_path); 
             
             count = count + 1;
             str=['已完成...',num2str(100*count/All),'%'];    % 百分比形式显示处理进程,不需要删掉这行代码就行

@@ -8,9 +8,9 @@ import com.comsol.model.*
 import com.comsol.model.util.*
 
 model = ModelUtil.create('Model');
-model.modelPath(model_path);
-% model.modelPath('D:\学习资料\研究生阶段\磁流体实验室\1小论文1\0matlab联调\model2\');
-% model.label('Model.mph');
+% model.modelPath(model_path);
+model.modelPath('D:\GitHub\paper1\');
+model.label('Model.mph');
 
 model.param.set('jxh', jxh, [native2unicode(hex2dec({'69' 'fd'}), 'unicode')  native2unicode(hex2dec({'9a' 'd8'}), 'unicode') ]);
 model.param.set('jxw', jxw, [native2unicode(hex2dec({'69' 'fd'}), 'unicode')  native2unicode(hex2dec({'5b' 'bd'}), 'unicode') ]);
