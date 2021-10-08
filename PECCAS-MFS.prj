@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="648054069" file="D:\GitHub\paper1\PECCAS-MFS.prj" location="D:\GitHub\paper1" name="PECCAS-MFS" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="2009098086" file="D:\GitHub\paper1\PECCAS-MFS.prj" location="D:\GitHub\paper1" name="PECCAS-MFS" target="target.mlapps" target-name="打包为 App">
     <param.appname>PECCAS-MFS</param.appname>
     <param.authnamewatermark>王璐</param.authnamewatermark>
     <param.email>20121364@bjtu.edu.cn</param.email>
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary />
     <param.description />
-    <param.screenshot>C:\Users\lenovo\AppData\Local\Temp\tpa5b0c9f3_ecc0_4a05_870d_8df8dc9cdc76.png</param.screenshot>
+    <param.screenshot>C:\Users\lenovo\AppData\Local\Temp\tp15a0f99c_56a6_4894_a4f8_37216135f152.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
