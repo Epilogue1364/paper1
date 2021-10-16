@@ -1,0 +1,224 @@
+<!DOCTYPE DEXXMLDoc SYSTEM "DEXXMLDoc.DTD">
+<DEXXMLDoc name="响应面.dxpx" creator="DX12" version="12.0.1.0">
+<designInfo studyType="ResponseSurface" studySubType="Randomized" designType="Optimal" noOfRuns="20" noOfFactors="3" noOfResponses="1">
+<designNotes>This data file created by Design-Expert 12.</designNotes>
+</designInfo>
+<blockInfo>
+<block code="0" name="Block 1"/>
+</blockInfo>
+<factorInfo>
+<factor id="A" name="Height" unit="mm" type="Numeric">
+<numeric format="General" low="0.3" high="1" stdDev="0">
+<level code="0">0.3</level>
+<level code="1">0.4</level>
+<level code="2">0.5</level>
+<level code="3">0.6</level>
+<level code="4">0.7</level>
+<level code="5">0.8</level>
+<level code="6">0.9</level>
+<level code="7">1</level>
+</numeric>
+</factor>
+<factor id="B" name="GWidth" unit="mm" type="Numeric">
+<numeric format="General" low="0.4" high="1.4" stdDev="0">
+<level code="0">0.4</level>
+<level code="1">0.5</level>
+<level code="2">0.6</level>
+<level code="3">0.7</level>
+<level code="4">0.8</level>
+<level code="5">0.9</level>
+<level code="6">1</level>
+<level code="7">1.1</level>
+<level code="8">1.2</level>
+<level code="9">1.3</level>
+<level code="10">1.4</level>
+</numeric>
+</factor>
+<factor id="C" name="TWidth" unit="mm" type="Numeric">
+<numeric format="General" low="0.12" high="0.28" stdDev="0">
+<level code="0">0.12</level>
+<level code="1">0.16</level>
+<level code="2">0.2</level>
+<level code="3">0.24</level>
+<level code="4">0.28</level>
+</numeric>
+</factor>
+</factorInfo>
+<constraintInfo/>
+<responseInfo>
+<response id="1" name="ΔB" unit="T" type="Normal" format="General" modelBase="Polynomial" stdDevSource="ANOVA" stdDev="0"/>
+</responseInfo>
+<guiState>
+<designLayout>
+<visibleColumns>
+<column type="runorder">
+<width>35</width>
+</column>
+<column id="A" type="factor">
+<width>104</width>
+</column>
+<column id="B" type="factor">
+<width>104</width>
+</column>
+<column id="C" type="factor">
+<width>104</width>
+</column>
+<column id="1" type="response">
+<width>104</width>
+</column>
+</visibleColumns>
+</designLayout>
+</guiState>
+<designModel terms="10">
+<designTerm id="0" coef="1" term="Intercept"/>
+<designTerm id="1" coef="1" term="A"/>
+<designTerm id="2" coef="1" term="B"/>
+<designTerm id="3" coef="1" term="C"/>
+<designTerm id="4" coef="1" term="AB"/>
+<designTerm id="5" coef="1" term="AC"/>
+<designTerm id="6" coef="1" term="BC"/>
+<designTerm id="7" coef="1" term="A^2"/>
+<designTerm id="8" coef="1" term="B^2"/>
+<designTerm id="9" coef="1" term="C^2"/>
+</designModel>
+<run stdNo="17" dsnId="13" runNo="1" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="2" buildPointName="Replicate" note="" rowStatus="Normal">
+<facActual id="A">1</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.28</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="8" dsnId="7" runNo="2" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="2" buildPointName="Replicate" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="19" dsnId="15" runNo="3" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="1" buildPointName="Lack of Fit" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.28</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="20" dsnId="16" runNo="4" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="0" buildPointName="Model" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.28</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="12" dsnId="10" runNo="5" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="0" buildPointName="Model" note="" rowStatus="Normal">
+<facActual id="A">1</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="6" dsnId="6" runNo="6" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="1" buildPointName="Lack of Fit" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.16</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="5" dsnId="5" runNo="7" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="0" buildPointName="Model" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.12</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="7" dsnId="7" runNo="8" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="0" buildPointName="Model" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="1" dsnId="2" runNo="9" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="0" buildPointName="Model" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.12</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="15" dsnId="12" runNo="10" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="0" buildPointName="Model" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.28</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="3" dsnId="4" runNo="11" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="0" buildPointName="Model" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.12</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="13" dsnId="10" runNo="12" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="2" buildPointName="Replicate" note="" rowStatus="Normal">
+<facActual id="A">1</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="9" dsnId="8" runNo="13" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="0" buildPointName="Model" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="14" dsnId="11" runNo="14" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="1" buildPointName="Lack of Fit" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.24</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="11" dsnId="9" runNo="15" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="1" buildPointName="Lack of Fit" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="2" dsnId="3" runNo="16" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="0" buildPointName="Model" note="" rowStatus="Normal">
+<facActual id="A">1</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.12</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="10" dsnId="8" runNo="17" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="2" buildPointName="Replicate" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="18" dsnId="14" runNo="18" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="1" buildPointName="Lack of Fit" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.28</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="4" dsnId="4" runNo="19" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="2" buildPointName="Replicate" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.12</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<run stdNo="16" dsnId="13" runNo="20" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="0" buildPointName="Model" note="" rowStatus="Normal">
+<facActual id="A">1</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.28</facActual>
+<resVal id="1">Missing</resVal>
+</run>
+<responseModel id="1">
+<transform id="0" name="None"/>
+</responseModel>
+<optimization models="5">
+<criteria modType="Factor" id="1" goal="InRange" type="Numeric" target="0.65" limitLow="0.3" limitHigh="1" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Factor" id="2" goal="InRange" type="Numeric" target="0.9" limitLow="0.4" limitHigh="1.4" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Factor" id="3" goal="InRange" type="Numeric" target="0.2" limitLow="0.12" limitHigh="0.28" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Response" id="1" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="POE" id="1" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original"/>
+</optimization>
+<buildInfo noOfCenterPoints="0" noOfReplicates="5" coordinateExchange="true" pointExchange="true" noOfLackOfFit="5" noOfModelPoints="10" optimality="I-optimal" candMethodUsed="Coordinate Exchange" modelPointTypeUsed="IOptimal" successfulAttempts="20" forceCategoricBalance="false" processOrder="Quadratic" buildTime="828" buildSeed="-1688262036">
+<candidatePoint pointType="vertex" factorSpace="categoric"/>
+<candidatePoint pointType="centedge" factorSpace="categoric"/>
+<candidatePoint pointType="thirdedge" factorSpace="categoric"/>
+<candidatePoint pointType="tripblend" factorSpace="categoric"/>
+<candidatePoint pointType="planecent" factorSpace="categoric"/>
+<candidatePoint pointType="axialcb" factorSpace="categoric"/>
+<candidatePoint pointType="interior" factorSpace="categoric"/>
+<candidatePoint pointType="center" factorSpace="categoric"/>
+</buildInfo>
+</DEXXMLDoc>
