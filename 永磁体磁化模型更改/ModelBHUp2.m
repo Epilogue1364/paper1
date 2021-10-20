@@ -8,9 +8,7 @@ import com.comsol.model.*
 import com.comsol.model.util.*
 
 model = ModelUtil.create('Model');
-
-model.modelPath('D:\GitHub\paper1');
-
+model.modelPath(app.file_path);
 model.label('ModelBHUp.mph');
 
 model.param.set('jxh', '0.3[mm]', [native2unicode(hex2dec({'69' 'fd'}), 'unicode')  native2unicode(hex2dec({'9a' 'd8'}), 'unicode') ]);
