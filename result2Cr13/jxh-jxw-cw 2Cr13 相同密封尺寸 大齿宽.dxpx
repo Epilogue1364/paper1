@@ -1,0 +1,2758 @@
+<!DOCTYPE DEXXMLDoc SYSTEM "DEXXMLDoc.DTD">
+<DEXXMLDoc name="jxh-jxw-cw 2Cr13 相同密封尺寸 大齿宽.dxpx" creator="DX12" version="12.0.1.0">
+<designInfo studyType="Factorial" studySubType="Randomized" designType="Factorial" noOfRuns="440" noOfFactors="3" noOfResponses="1">
+<designNotes>This data file created by Design-Expert 12.</designNotes>
+</designInfo>
+<blockInfo>
+<block code="0" name="Block 1"/>
+</blockInfo>
+<factorInfo>
+<factor id="A" name="jxh" unit="mm" type="Categoric">
+<categoric noOfLevels="8" contrasts="Ordinal">
+<level name="0.3"/>
+<level name="0.4"/>
+<level name="0.5"/>
+<level name="0.6"/>
+<level name="0.7"/>
+<level name="0.8"/>
+<level name="0.9"/>
+<level name="1.0"/>
+</categoric>
+</factor>
+<factor id="B" name="jxw" unit="mm" type="Categoric">
+<categoric noOfLevels="11" contrasts="Ordinal">
+<level name="0.4"/>
+<level name="0.5"/>
+<level name="0.6"/>
+<level name="0.7"/>
+<level name="0.8"/>
+<level name="0.9"/>
+<level name="1"/>
+<level name="1.1"/>
+<level name="1.2"/>
+<level name="1.3"/>
+<level name="1.4"/>
+</categoric>
+</factor>
+<factor id="C" name="cw" unit="mm" type="Categoric">
+<categoric noOfLevels="5" contrasts="Ordinal">
+<level name="0.1"/>
+<level name="0.2"/>
+<level name="0.3"/>
+<level name="0.4"/>
+<level name="0.5"/>
+</categoric>
+</factor>
+</factorInfo>
+<constraintInfo/>
+<responseInfo>
+<response id="1" name="ΔB" unit="T" type="Normal" format="General" modelBase="Factorial" stdDevSource="ANOVA" stdDev="0.117843328727276"/>
+</responseInfo>
+<guiState>
+<designLayout>
+<visibleColumns>
+<column type="stdorder">
+<width>35</width>
+</column>
+<column type="runorder">
+<width>35</width>
+</column>
+<column id="A" type="factor">
+<width>104</width>
+</column>
+<column id="B" type="factor">
+<width>104</width>
+</column>
+<column id="C" type="factor">
+<width>104</width>
+</column>
+<column id="1" type="response">
+<width>104</width>
+</column>
+</visibleColumns>
+</designLayout>
+<graphSettings>
+<graphArea name="GraphColumns">
+<colorBy type="runOrder"/>
+</graphArea>
+<graphArea name="EffectsNoRestriction" index="0" graph="0"/>
+<graphArea name="EffectsNoRestriction" index="0" graph="1"/>
+<graphArea name="EffectsNoRestriction" index="0" graph="2"/>
+</graphSettings>
+<perspectives>
+<report name="effects_notebook_ΔB" width="1920" height="1080">054ef1f0617009f1003ad3c100000002=*0|050296b0617009f1003ad45600000003=+1@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=054ef1f0617009f1003ad3c100000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=844;besth=894;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=050296b0617009f1003ad45600000003;caption=;state=2098172;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=852;besth=894;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(2,2,0)=854|</report>
+<report name="report_anova_ΔB" width="1920" height="1080">05029340617009f7003aed0700000002=*0|05029188617009f7003aed7f00000003=+1,2|05028aa8617009f7003aed8300000004=+3,4,5@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=05029340617009f7003aed0700000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=844;besth=894;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=05029188617009f7003aed7f00000003;caption=;state=2098172;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=852;besth=444;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=05028aa8617009f7003aed8300000004;caption=;state=2098172;dir=2;layer=3;row=0;pos=1;prop=100000;bestw=852;besth=444;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(2,3,0)=854|</report>
+<report name="report_design_summary_" width="1920" height="1080">054f0a00616ffbe70003fd7500000002=*0|054f0320616ffbe70003fd9e00000003=+1,2@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=054f0a00616ffbe70003fd7500000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=1710;besth=458;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=054f0320616ffbe70003fd9e00000003;caption=;state=2098172;dir=3;layer=2;row=0;pos=0;prop=100000;bestw=1710;besth=465;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|dock_size(3,2,0)=467|</report>
+</perspectives>
+</guiState>
+<designModel terms="7">
+<designTerm id="0" coef="1" term="Intercept"/>
+<designTerm id="1" coef="1" term="A"/>
+<designTerm id="2" coef="1" term="B"/>
+<designTerm id="3" coef="1" term="C"/>
+<designTerm id="4" coef="1" term="AB"/>
+<designTerm id="5" coef="1" term="AC"/>
+<designTerm id="6" coef="1" term="BC"/>
+</designModel>
+<run stdNo="53" dsnId="54" runNo="1" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">13.07419995</resVal>
+</run>
+<run stdNo="56" dsnId="57" runNo="2" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">12.66755922</resVal>
+</run>
+<run stdNo="379" dsnId="380" runNo="3" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.30987533</resVal>
+</run>
+<run stdNo="44" dsnId="45" runNo="4" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">14.34185036</resVal>
+</run>
+<run stdNo="251" dsnId="252" runNo="5" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">12.97396208</resVal>
+</run>
+<run stdNo="234" dsnId="235" runNo="6" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.11819702</resVal>
+</run>
+<run stdNo="394" dsnId="395" runNo="7" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.02998832</resVal>
+</run>
+<run stdNo="240" dsnId="241" runNo="8" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.43476989</resVal>
+</run>
+<run stdNo="14" dsnId="15" runNo="9" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">18.84180077</resVal>
+</run>
+<run stdNo="395" dsnId="396" runNo="10" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.26957022</resVal>
+</run>
+<run stdNo="316" dsnId="317" runNo="11" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.59649752</resVal>
+</run>
+<run stdNo="46" dsnId="47" runNo="12" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">14.0041742</resVal>
+</run>
+<run stdNo="183" dsnId="184" runNo="13" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.28890906</resVal>
+</run>
+<run stdNo="242" dsnId="243" runNo="14" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">12.63634876</resVal>
+</run>
+<run stdNo="336" dsnId="337" runNo="15" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.94094756</resVal>
+</run>
+<run stdNo="422" dsnId="423" runNo="16" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.82311102</resVal>
+</run>
+<run stdNo="152" dsnId="153" runNo="17" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">14.65967287</resVal>
+</run>
+<run stdNo="270" dsnId="271" runNo="18" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.39976478</resVal>
+</run>
+<run stdNo="110" dsnId="111" runNo="19" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.25847557</resVal>
+</run>
+<run stdNo="429" dsnId="430" runNo="20" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.57361775</resVal>
+</run>
+<run stdNo="228" dsnId="229" runNo="21" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.36055578</resVal>
+</run>
+<run stdNo="313" dsnId="314" runNo="22" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.40769745</resVal>
+</run>
+<run stdNo="291" dsnId="292" runNo="23" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.94007291</resVal>
+</run>
+<run stdNo="24" dsnId="25" runNo="24" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">16.89493133</resVal>
+</run>
+<run stdNo="418" dsnId="419" runNo="25" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.19206024</resVal>
+</run>
+<run stdNo="88" dsnId="89" runNo="26" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">9.673277975</resVal>
+</run>
+<run stdNo="141" dsnId="142" runNo="27" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.72118219</resVal>
+</run>
+<run stdNo="201" dsnId="202" runNo="28" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.3169823</resVal>
+</run>
+<run stdNo="271" dsnId="272" runNo="29" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.25088485</resVal>
+</run>
+<run stdNo="341" dsnId="342" runNo="30" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.89515182</resVal>
+</run>
+<run stdNo="96" dsnId="97" runNo="31" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.95843621</resVal>
+</run>
+<run stdNo="333" dsnId="334" runNo="32" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.20852358</resVal>
+</run>
+<run stdNo="303" dsnId="304" runNo="33" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.46803953</resVal>
+</run>
+<run stdNo="148" dsnId="149" runNo="34" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.27015284</resVal>
+</run>
+<run stdNo="87" dsnId="88" runNo="35" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">9.762738525</resVal>
+</run>
+<run stdNo="33" dsnId="34" runNo="36" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">15.73868419</resVal>
+</run>
+<run stdNo="244" dsnId="245" runNo="37" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.34399098</resVal>
+</run>
+<run stdNo="64" dsnId="65" runNo="38" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">11.52954345</resVal>
+</run>
+<run stdNo="146" dsnId="147" runNo="39" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">14.85512755</resVal>
+</run>
+<run stdNo="210" dsnId="211" runNo="40" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.58982826</resVal>
+</run>
+<run stdNo="357" dsnId="358" runNo="41" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">9.972869767</resVal>
+</run>
+<run stdNo="253" dsnId="254" runNo="42" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.32870278</resVal>
+</run>
+<run stdNo="77" dsnId="78" runNo="43" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">9.967839145</resVal>
+</run>
+<run stdNo="368" dsnId="369" runNo="44" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.22369742</resVal>
+</run>
+<run stdNo="30" dsnId="31" runNo="45" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">16.27288657</resVal>
+</run>
+<run stdNo="359" dsnId="360" runNo="46" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">9.714910786</resVal>
+</run>
+<run stdNo="118" dsnId="119" runNo="47" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.10413751</resVal>
+</run>
+<run stdNo="83" dsnId="84" runNo="48" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">10.13628871</resVal>
+</run>
+<run stdNo="290" dsnId="291" runNo="49" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.81974922</resVal>
+</run>
+<run stdNo="250" dsnId="251" runNo="50" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">12.41994123</resVal>
+</run>
+<run stdNo="28" dsnId="29" runNo="51" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">16.6768503</resVal>
+</run>
+<run stdNo="74" dsnId="75" runNo="52" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">10.21650367</resVal>
+</run>
+<run stdNo="25" dsnId="26" runNo="53" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">17.14560249</resVal>
+</run>
+<run stdNo="389" dsnId="390" runNo="54" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.2949252</resVal>
+</run>
+<run stdNo="133" dsnId="134" runNo="55" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.5024757</resVal>
+</run>
+<run stdNo="193" dsnId="194" runNo="56" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.55350229</resVal>
+</run>
+<run stdNo="297" dsnId="298" runNo="57" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.04658392</resVal>
+</run>
+<run stdNo="36" dsnId="37" runNo="58" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">15.35147547</resVal>
+</run>
+<run stdNo="309" dsnId="310" runNo="59" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.6893351</resVal>
+</run>
+<run stdNo="306" dsnId="307" runNo="60" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.41615996</resVal>
+</run>
+<run stdNo="354" dsnId="355" runNo="61" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.2681492</resVal>
+</run>
+<run stdNo="381" dsnId="382" runNo="62" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.17954444</resVal>
+</run>
+<run stdNo="324" dsnId="325" runNo="63" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.41456944</resVal>
+</run>
+<run stdNo="411" dsnId="412" runNo="64" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.87619933</resVal>
+</run>
+<run stdNo="273" dsnId="274" runNo="65" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.36698924</resVal>
+</run>
+<run stdNo="245" dsnId="246" runNo="66" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.3967711</resVal>
+</run>
+<run stdNo="167" dsnId="168" runNo="67" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.51350051</resVal>
+</run>
+<run stdNo="289" dsnId="290" runNo="68" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.37986736</resVal>
+</run>
+<run stdNo="312" dsnId="313" runNo="69" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.29621296</resVal>
+</run>
+<run stdNo="68" dsnId="69" runNo="70" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">11.38750043</resVal>
+</run>
+<run stdNo="69" dsnId="70" runNo="71" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">11.26517395</resVal>
+</run>
+<run stdNo="112" dsnId="113" runNo="72" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.77957888</resVal>
+</run>
+<run stdNo="31" dsnId="32" runNo="73" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">16.08610119</resVal>
+</run>
+<run stdNo="81" dsnId="82" runNo="74" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">10.07042442</resVal>
+</run>
+<run stdNo="42" dsnId="43" runNo="75" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">14.65250411</resVal>
+</run>
+<run stdNo="135" dsnId="136" runNo="76" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.17609994</resVal>
+</run>
+<run stdNo="346" dsnId="347" runNo="77" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">10.57218417</resVal>
+</run>
+<run stdNo="387" dsnId="388" runNo="78" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.35375919</resVal>
+</run>
+<run stdNo="115" dsnId="116" runNo="79" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.47256234</resVal>
+</run>
+<run stdNo="305" dsnId="306" runNo="80" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.76412195</resVal>
+</run>
+<run stdNo="92" dsnId="93" runNo="81" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.80725096</resVal>
+</run>
+<run stdNo="412" dsnId="413" runNo="82" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.02991502</resVal>
+</run>
+<run stdNo="7" dsnId="8" runNo="83" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">19.01943937</resVal>
+</run>
+<run stdNo="177" dsnId="178" runNo="84" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.98868074</resVal>
+</run>
+<run stdNo="421" dsnId="422" runNo="85" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.84645811</resVal>
+</run>
+<run stdNo="282" dsnId="283" runNo="86" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.83344541</resVal>
+</run>
+<run stdNo="186" dsnId="187" runNo="87" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.69862585</resVal>
+</run>
+<run stdNo="2" dsnId="3" runNo="88" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">19.99552773</resVal>
+</run>
+<run stdNo="427" dsnId="428" runNo="89" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.25755054</resVal>
+</run>
+<run stdNo="58" dsnId="59" runNo="90" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">12.23776776</resVal>
+</run>
+<run stdNo="426" dsnId="427" runNo="91" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">9.822988681</resVal>
+</run>
+<run stdNo="54" dsnId="55" runNo="92" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">12.92740327</resVal>
+</run>
+<run stdNo="91" dsnId="92" runNo="93" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.96076433</resVal>
+</run>
+<run stdNo="423" dsnId="424" runNo="94" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.72649271</resVal>
+</run>
+<run stdNo="107" dsnId="108" runNo="95" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.73456095</resVal>
+</run>
+<run stdNo="168" dsnId="169" runNo="96" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.35376127</resVal>
+</run>
+<run stdNo="438" dsnId="439" runNo="97" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.54635007</resVal>
+</run>
+<run stdNo="102" dsnId="103" runNo="98" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.06908451</resVal>
+</run>
+<run stdNo="339" dsnId="340" runNo="99" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.52466434</resVal>
+</run>
+<run stdNo="375" dsnId="376" runNo="100" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.75034303</resVal>
+</run>
+<run stdNo="320" dsnId="321" runNo="101" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.05923302</resVal>
+</run>
+<run stdNo="200" dsnId="201" runNo="102" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.14645994</resVal>
+</run>
+<run stdNo="187" dsnId="188" runNo="103" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.66817147</resVal>
+</run>
+<run stdNo="38" dsnId="39" runNo="104" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">14.9826823</resVal>
+</run>
+<run stdNo="40" dsnId="41" runNo="105" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">14.65884917</resVal>
+</run>
+<run stdNo="119" dsnId="120" runNo="106" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.87920929</resVal>
+</run>
+<run stdNo="428" dsnId="429" runNo="107" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.48432723</resVal>
+</run>
+<run stdNo="396" dsnId="397" runNo="108" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.33235456</resVal>
+</run>
+<run stdNo="360" dsnId="361" runNo="109" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">9.588579994</resVal>
+</run>
+<run stdNo="188" dsnId="189" runNo="110" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.5541761</resVal>
+</run>
+<run stdNo="5" dsnId="6" runNo="111" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">19.49673395</resVal>
+</run>
+<run stdNo="120" dsnId="121" runNo="112" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.63931682</resVal>
+</run>
+<run stdNo="199" dsnId="200" runNo="113" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.35181153</resVal>
+</run>
+<run stdNo="89" dsnId="90" runNo="114" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.01203119</resVal>
+</run>
+<run stdNo="413" dsnId="414" runNo="115" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.05881102</resVal>
+</run>
+<run stdNo="358" dsnId="359" runNo="116" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">9.843645319</resVal>
+</run>
+<run stdNo="116" dsnId="117" runNo="117" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.43164527</resVal>
+</run>
+<run stdNo="157" dsnId="158" runNo="118" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.83618247</resVal>
+</run>
+<run stdNo="436" dsnId="437" runNo="119" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.31982736</resVal>
+</run>
+<run stdNo="335" dsnId="336" runNo="120" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.0970543</resVal>
+</run>
+<run stdNo="23" dsnId="24" runNo="121" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">17.09636234</resVal>
+</run>
+<run stdNo="332" dsnId="333" runNo="122" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.18938948</resVal>
+</run>
+<run stdNo="51" dsnId="52" runNo="123" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">13.38063282</resVal>
+</run>
+<run stdNo="362" dsnId="363" runNo="124" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.91231996</resVal>
+</run>
+<run stdNo="162" dsnId="163" runNo="125" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.55862959</resVal>
+</run>
+<run stdNo="256" dsnId="257" runNo="126" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.08683731</resVal>
+</run>
+<run stdNo="328" dsnId="329" runNo="127" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.11796031</resVal>
+</run>
+<run stdNo="437" dsnId="438" runNo="128" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.53609348</resVal>
+</run>
+<run stdNo="267" dsnId="268" runNo="129" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.80660867</resVal>
+</run>
+<run stdNo="410" dsnId="411" runNo="130" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.51882659</resVal>
+</run>
+<run stdNo="414" dsnId="415" runNo="131" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.00130299</resVal>
+</run>
+<run stdNo="66" dsnId="67" runNo="132" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">11.56874893</resVal>
+</run>
+<run stdNo="78" dsnId="79" runNo="133" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">9.870907488</resVal>
+</run>
+<run stdNo="235" dsnId="236" runNo="134" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.57934137</resVal>
+</run>
+<run stdNo="155" dsnId="156" runNo="135" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">14.01798106</resVal>
+</run>
+<run stdNo="175" dsnId="176" runNo="136" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">12.74541002</resVal>
+</run>
+<run stdNo="154" dsnId="155" runNo="137" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.77321906</resVal>
+</run>
+<run stdNo="150" dsnId="151" runNo="138" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.02388907</resVal>
+</run>
+<run stdNo="159" dsnId="160" runNo="139" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.50781967</resVal>
+</run>
+<run stdNo="232" dsnId="233" runNo="140" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.9264449</resVal>
+</run>
+<run stdNo="169" dsnId="170" runNo="141" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">11.96241482</resVal>
+</run>
+<run stdNo="63" dsnId="64" runNo="142" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">11.64000482</resVal>
+</run>
+<run stdNo="419" dsnId="420" runNo="143" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.59273905</resVal>
+</run>
+<run stdNo="182" dsnId="183" runNo="144" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.46461244</resVal>
+</run>
+<run stdNo="272" dsnId="273" runNo="145" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.10635309</resVal>
+</run>
+<run stdNo="364" dsnId="365" runNo="146" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.78148458</resVal>
+</run>
+<run stdNo="172" dsnId="173" runNo="147" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.14249348</resVal>
+</run>
+<run stdNo="243" dsnId="244" runNo="148" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.1291048</resVal>
+</run>
+<run stdNo="238" dsnId="239" runNo="149" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.72877068</resVal>
+</run>
+<run stdNo="95" dsnId="96" runNo="150" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.17408332</resVal>
+</run>
+<run stdNo="131" dsnId="132" runNo="151" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.54357899</resVal>
+</run>
+<run stdNo="347" dsnId="348" runNo="152" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.22980733</resVal>
+</run>
+<run stdNo="99" dsnId="100" runNo="153" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.62342128</resVal>
+</run>
+<run stdNo="259" dsnId="260" runNo="154" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">12.45986937</resVal>
+</run>
+<run stdNo="215" dsnId="216" runNo="155" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.45639087</resVal>
+</run>
+<run stdNo="171" dsnId="172" runNo="156" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.15171188</resVal>
+</run>
+<run stdNo="111" dsnId="112" runNo="157" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.02261916</resVal>
+</run>
+<run stdNo="365" dsnId="366" runNo="158" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.6532193</resVal>
+</run>
+<run stdNo="203" dsnId="204" runNo="159" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">15.00605395</resVal>
+</run>
+<run stdNo="265" dsnId="266" runNo="160" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.86349725</resVal>
+</run>
+<run stdNo="105" dsnId="106" runNo="161" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.25451225</resVal>
+</run>
+<run stdNo="202" dsnId="203" runNo="162" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.85323817</resVal>
+</run>
+<run stdNo="317" dsnId="318" runNo="163" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.64400849</resVal>
+</run>
+<run stdNo="262" dsnId="263" runNo="164" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">12.82884302</resVal>
+</run>
+<run stdNo="353" dsnId="354" runNo="165" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.25767437</resVal>
+</run>
+<run stdNo="310" dsnId="311" runNo="166" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.60299169</resVal>
+</run>
+<run stdNo="90" dsnId="91" runNo="167" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.05740588</resVal>
+</run>
+<run stdNo="204" dsnId="205" runNo="168" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.99150015</resVal>
+</run>
+<run stdNo="385" dsnId="386" runNo="169" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.70339789</resVal>
+</run>
+<run stdNo="246" dsnId="247" runNo="170" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.35698379</resVal>
+</run>
+<run stdNo="76" dsnId="77" runNo="171" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">10.0697704</resVal>
+</run>
+<run stdNo="350" dsnId="351" runNo="172" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.48531229</resVal>
+</run>
+<run stdNo="94" dsnId="95" runNo="173" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.39063928</resVal>
+</run>
+<run stdNo="75" dsnId="76" runNo="174" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">10.16293547</resVal>
+</run>
+<run stdNo="82" dsnId="83" runNo="175" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">10.17475153</resVal>
+</run>
+<run stdNo="160" dsnId="161" runNo="176" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.34647362</resVal>
+</run>
+<run stdNo="343" dsnId="344" runNo="177" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.82582187</resVal>
+</run>
+<run stdNo="170" dsnId="171" runNo="178" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">12.85320906</resVal>
+</run>
+<run stdNo="434" dsnId="435" runNo="179" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">9.687888738</resVal>
+</run>
+<run stdNo="209" dsnId="210" runNo="180" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.8989997</resVal>
+</run>
+<run stdNo="293" dsnId="294" runNo="181" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.80461667</resVal>
+</run>
+<run stdNo="398" dsnId="399" runNo="182" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.12235754</resVal>
+</run>
+<run stdNo="147" dsnId="148" runNo="183" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.21025817</resVal>
+</run>
+<run stdNo="61" dsnId="62" runNo="184" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">11.88553826</resVal>
+</run>
+<run stdNo="382" dsnId="383" runNo="185" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.03989065</resVal>
+</run>
+<run stdNo="173" dsnId="174" runNo="186" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.03347956</resVal>
+</run>
+<run stdNo="109" dsnId="110" runNo="187" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.47177446</resVal>
+</run>
+<run stdNo="247" dsnId="248" runNo="188" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.25167499</resVal>
+</run>
+<run stdNo="85" dsnId="86" runNo="189" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">9.954222792</resVal>
+</run>
+<run stdNo="114" dsnId="115" runNo="190" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.32880224</resVal>
+</run>
+<run stdNo="264" dsnId="265" runNo="191" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">12.6364296</resVal>
+</run>
+<run stdNo="151" dsnId="152" runNo="192" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">14.84337844</resVal>
+</run>
+<run stdNo="388" dsnId="389" runNo="193" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.37224393</resVal>
+</run>
+<run stdNo="108" dsnId="109" runNo="194" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.64410312</resVal>
+</run>
+<run stdNo="278" dsnId="279" runNo="195" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.06787887</resVal>
+</run>
+<run stdNo="286" dsnId="287" runNo="196" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.49745148</resVal>
+</run>
+<run stdNo="192" dsnId="193" runNo="197" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.80811198</resVal>
+</run>
+<run stdNo="399" dsnId="400" runNo="198" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.0367867</resVal>
+</run>
+<run stdNo="276" dsnId="277" runNo="199" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.35605899</resVal>
+</run>
+<run stdNo="106" dsnId="107" runNo="200" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.68181304</resVal>
+</run>
+<run stdNo="60" dsnId="61" runNo="201" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">12.02040395</resVal>
+</run>
+<run stdNo="402" dsnId="403" runNo="202" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.80665019</resVal>
+</run>
+<run stdNo="206" dsnId="207" runNo="203" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.68873211</resVal>
+</run>
+<run stdNo="166" dsnId="167" runNo="204" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.66717686</resVal>
+</run>
+<run stdNo="123" dsnId="124" runNo="205" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.12809085</resVal>
+</run>
+<run stdNo="149" dsnId="150" runNo="206" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.18437877</resVal>
+</run>
+<run stdNo="178" dsnId="179" runNo="207" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.02054398</resVal>
+</run>
+<run stdNo="404" dsnId="405" runNo="208" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.21984391</resVal>
+</run>
+<run stdNo="22" dsnId="23" runNo="209" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">17.29685284</resVal>
+</run>
+<run stdNo="308" dsnId="309" runNo="210" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.78578874</resVal>
+</run>
+<run stdNo="363" dsnId="364" runNo="211" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.87807504</resVal>
+</run>
+<run stdNo="15" dsnId="16" runNo="212" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">18.61800287</resVal>
+</run>
+<run stdNo="52" dsnId="53" runNo="213" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">13.22954855</resVal>
+</run>
+<run stdNo="326" dsnId="327" runNo="214" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.39957501</resVal>
+</run>
+<run stdNo="227" dsnId="228" runNo="215" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.20666525</resVal>
+</run>
+<run stdNo="435" dsnId="436" runNo="216" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.160743</resVal>
+</run>
+<run stdNo="9" dsnId="10" runNo="217" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">19.58145215</resVal>
+</run>
+<run stdNo="268" dsnId="269" runNo="218" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.762473</resVal>
+</run>
+<run stdNo="198" dsnId="199" runNo="219" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.55576207</resVal>
+</run>
+<run stdNo="190" dsnId="191" runNo="220" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.1132841</resVal>
+</run>
+<run stdNo="72" dsnId="73" runNo="221" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">10.9346919</resVal>
+</run>
+<run stdNo="130" dsnId="131" runNo="222" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.24419585</resVal>
+</run>
+<run stdNo="181" dsnId="182" runNo="223" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.63404031</resVal>
+</run>
+<run stdNo="19" dsnId="20" runNo="224" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">17.94770626</resVal>
+</run>
+<run stdNo="8" dsnId="9" runNo="225" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">18.77332695</resVal>
+</run>
+<run stdNo="325" dsnId="326" runNo="226" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.45534666</resVal>
+</run>
+<run stdNo="41" dsnId="42" runNo="227" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">14.63465254</resVal>
+</run>
+<run stdNo="134" dsnId="135" runNo="228" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.35832735</resVal>
+</run>
+<run stdNo="143" dsnId="144" runNo="229" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.38556166</resVal>
+</run>
+<run stdNo="288" dsnId="289" runNo="230" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.14076979</resVal>
+</run>
+<run stdNo="405" dsnId="406" runNo="231" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.21365241</resVal>
+</run>
+<run stdNo="420" dsnId="421" runNo="232" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.78668045</resVal>
+</run>
+<run stdNo="156" dsnId="157" runNo="233" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.97018852</resVal>
+</run>
+<run stdNo="342" dsnId="343" runNo="234" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.89800679</resVal>
+</run>
+<run stdNo="258" dsnId="259" runNo="235" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">11.89681113</resVal>
+</run>
+<run stdNo="330" dsnId="331" runNo="236" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.52440332</resVal>
+</run>
+<run stdNo="127" dsnId="128" runNo="237" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.66231777</resVal>
+</run>
+<run stdNo="37" dsnId="38" runNo="238" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">15.16138738</resVal>
+</run>
+<run stdNo="241" dsnId="242" runNo="239" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">11.63971962</resVal>
+</run>
+<run stdNo="284" dsnId="285" runNo="240" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.79876168</resVal>
+</run>
+<run stdNo="222" dsnId="223" runNo="241" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.42027307</resVal>
+</run>
+<run stdNo="70" dsnId="71" runNo="242" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">11.14734402</resVal>
+</run>
+<run stdNo="195" dsnId="196" runNo="243" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.96907617</resVal>
+</run>
+<run stdNo="266" dsnId="267" runNo="244" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.88341275</resVal>
+</run>
+<run stdNo="280" dsnId="281" runNo="245" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.7390587</resVal>
+</run>
+<run stdNo="13" dsnId="14" runNo="246" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">19.05982629</resVal>
+</run>
+<run stdNo="189" dsnId="190" runNo="247" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.3856163</resVal>
+</run>
+<run stdNo="274" dsnId="275" runNo="248" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.50915483</resVal>
+</run>
+<run stdNo="351" dsnId="352" runNo="249" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.55032279</resVal>
+</run>
+<run stdNo="260" dsnId="261" runNo="250" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">12.73490334</resVal>
+</run>
+<run stdNo="86" dsnId="87" runNo="251" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">9.855077298</resVal>
+</run>
+<run stdNo="345" dsnId="346" runNo="252" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">9.625351212</resVal>
+</run>
+<run stdNo="128" dsnId="129" runNo="253" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.42011279</resVal>
+</run>
+<run stdNo="104" dsnId="105" runNo="254" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.59877123</resVal>
+</run>
+<run stdNo="311" dsnId="312" runNo="255" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.47634367</resVal>
+</run>
+<run stdNo="57" dsnId="58" runNo="256" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">12.18122881</resVal>
+</run>
+<run stdNo="197" dsnId="198" runNo="257" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.7460895</resVal>
+</run>
+<run stdNo="179" dsnId="180" runNo="258" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.93827893</resVal>
+</run>
+<run stdNo="390" dsnId="391" runNo="259" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.16578023</resVal>
+</run>
+<run stdNo="229" dsnId="230" runNo="260" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.36169172</resVal>
+</run>
+<run stdNo="370" dsnId="371" runNo="261" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.21732955</resVal>
+</run>
+<run stdNo="49" dsnId="50" runNo="262" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">13.44423294</resVal>
+</run>
+<run stdNo="279" dsnId="280" runNo="263" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.90244458</resVal>
+</run>
+<run stdNo="11" dsnId="12" runNo="264" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">19.47052584</resVal>
+</run>
+<run stdNo="219" dsnId="220" runNo="265" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.47853807</resVal>
+</run>
+<run stdNo="407" dsnId="408" runNo="266" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.99594359</resVal>
+</run>
+<run stdNo="73" dsnId="74" runNo="267" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">10.13930666</resVal>
+</run>
+<run stdNo="208" dsnId="209" runNo="268" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.27216305</resVal>
+</run>
+<run stdNo="237" dsnId="238" runNo="269" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.79123769</resVal>
+</run>
+<run stdNo="80" dsnId="81" runNo="270" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">9.685329073</resVal>
+</run>
+<run stdNo="408" dsnId="409" runNo="271" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.84235092</resVal>
+</run>
+<run stdNo="21" dsnId="22" runNo="272" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">17.50371023</resVal>
+</run>
+<run stdNo="277" dsnId="278" runNo="273" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.22963289</resVal>
+</run>
+<run stdNo="216" dsnId="217" runNo="274" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.24461774</resVal>
+</run>
+<run stdNo="34" dsnId="35" runNo="275" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">15.71362893</resVal>
+</run>
+<run stdNo="191" dsnId="192" runNo="276" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.99721485</resVal>
+</run>
+<run stdNo="163" dsnId="164" runNo="277" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.86123708</resVal>
+</run>
+<run stdNo="285" dsnId="286" runNo="278" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.66334192</resVal>
+</run>
+<run stdNo="409" dsnId="410" runNo="279" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">9.80539763</resVal>
+</run>
+<run stdNo="184" dsnId="185" runNo="280" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.11261414</resVal>
+</run>
+<run stdNo="144" dsnId="145" runNo="281" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.18933701</resVal>
+</run>
+<run stdNo="371" dsnId="372" runNo="282" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.24171485</resVal>
+</run>
+<run stdNo="71" dsnId="72" runNo="283" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">11.03796512</resVal>
+</run>
+<run stdNo="220" dsnId="221" runNo="284" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.57834178</resVal>
+</run>
+<run stdNo="392" dsnId="393" runNo="285" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.85218792</resVal>
+</run>
+<run stdNo="340" dsnId="341" runNo="286" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.78860632</resVal>
+</run>
+<run stdNo="269" dsnId="270" runNo="287" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.54892046</resVal>
+</run>
+<run stdNo="217" dsnId="218" runNo="288" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.33019068</resVal>
+</run>
+<run stdNo="249" dsnId="250" runNo="289" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">11.35985204</resVal>
+</run>
+<run stdNo="352" dsnId="353" runNo="290" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.31166083</resVal>
+</run>
+<run stdNo="45" dsnId="46" runNo="291" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">14.16805117</resVal>
+</run>
+<run stdNo="432" dsnId="433" runNo="292" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.38819156</resVal>
+</run>
+<run stdNo="233" dsnId="234" runNo="293" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">12.16236837</resVal>
+</run>
+<run stdNo="257" dsnId="258" runNo="294" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">10.83606553</resVal>
+</run>
+<run stdNo="319" dsnId="320" runNo="295" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.4155901</resVal>
+</run>
+<run stdNo="377" dsnId="378" runNo="296" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.84824772</resVal>
+</run>
+<run stdNo="307" dsnId="308" runNo="297" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.82469408</resVal>
+</run>
+<run stdNo="383" dsnId="384" runNo="298" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.88434583</resVal>
+</run>
+<run stdNo="327" dsnId="328" runNo="299" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.27915841</resVal>
+</run>
+<run stdNo="132" dsnId="133" runNo="300" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.58945597</resVal>
+</run>
+<run stdNo="124" dsnId="125" runNo="301" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.13791874</resVal>
+</run>
+<run stdNo="218" dsnId="219" runNo="302" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.13951459</resVal>
+</run>
+<run stdNo="194" dsnId="195" runNo="303" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.91514614</resVal>
+</run>
+<run stdNo="26" dsnId="27" runNo="304" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">17.08764612</resVal>
+</run>
+<run stdNo="1" dsnId="2" runNo="305" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">20.01288582</resVal>
+</run>
+<run stdNo="29" dsnId="30" runNo="306" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">16.46889198</resVal>
+</run>
+<run stdNo="207" dsnId="208" runNo="307" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.48325173</resVal>
+</run>
+<run stdNo="20" dsnId="21" runNo="308" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">17.72273259</resVal>
+</run>
+<run stdNo="425" dsnId="426" runNo="309" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">9.042091889</resVal>
+</run>
+<run stdNo="211" dsnId="212" runNo="310" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.84204813</resVal>
+</run>
+<run stdNo="136" dsnId="137" runNo="311" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.96176001</resVal>
+</run>
+<run stdNo="302" dsnId="303" runNo="312" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.63988256</resVal>
+</run>
+<run stdNo="59" dsnId="60" runNo="313" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">12.14949661</resVal>
+</run>
+<run stdNo="117" dsnId="118" runNo="314" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.29235559</resVal>
+</run>
+<run stdNo="180" dsnId="181" runNo="315" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.80667555</resVal>
+</run>
+<run stdNo="100" dsnId="101" runNo="316" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.49164941</resVal>
+</run>
+<run stdNo="98" dsnId="99" runNo="317" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.6607458</resVal>
+</run>
+<run stdNo="301" dsnId="302" runNo="318" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.77777893</resVal>
+</run>
+<run stdNo="185" dsnId="186" runNo="319" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.51706865</resVal>
+</run>
+<run stdNo="140" dsnId="141" runNo="320" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.8079012</resVal>
+</run>
+<run stdNo="296" dsnId="297" runNo="321" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.26207912</resVal>
+</run>
+<run stdNo="122" dsnId="123" runNo="322" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.89178268</resVal>
+</run>
+<run stdNo="415" dsnId="416" runNo="323" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.88719144</resVal>
+</run>
+<run stdNo="298" dsnId="299" runNo="324" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.6161236</resVal>
+</run>
+<run stdNo="153" dsnId="154" runNo="325" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">12.93533211</resVal>
+</run>
+<run stdNo="400" dsnId="401" runNo="326" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.8724754</resVal>
+</run>
+<run stdNo="4" dsnId="5" runNo="327" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">19.6959958</resVal>
+</run>
+<run stdNo="331" dsnId="332" runNo="328" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.89798094</resVal>
+</run>
+<run stdNo="65" dsnId="66" runNo="329" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">11.48636352</resVal>
+</run>
+<run stdNo="440" dsnId="441" runNo="330" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.39426387</resVal>
+</run>
+<run stdNo="223" dsnId="224" runNo="331" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.24515853</resVal>
+</run>
+<run stdNo="367" dsnId="368" runNo="332" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.36448173</resVal>
+</run>
+<run stdNo="174" dsnId="175" runNo="333" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">12.88844678</resVal>
+</run>
+<run stdNo="138" dsnId="139" runNo="334" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.44304823</resVal>
+</run>
+<run stdNo="292" dsnId="293" runNo="335" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">13.0313196</resVal>
+</run>
+<run stdNo="430" dsnId="431" runNo="336" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.57207861</resVal>
+</run>
+<run stdNo="348" dsnId="349" runNo="337" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.17982915</resVal>
+</run>
+<run stdNo="263" dsnId="264" runNo="338" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">12.75463847</resVal>
+</run>
+<run stdNo="275" dsnId="276" runNo="339" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.47732436</resVal>
+</run>
+<run stdNo="378" dsnId="379" runNo="340" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.21782196</resVal>
+</run>
+<run stdNo="6" dsnId="7" runNo="341" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">19.26939749</resVal>
+</run>
+<run stdNo="103" dsnId="104" runNo="342" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.8341753</resVal>
+</run>
+<run stdNo="164" dsnId="165" runNo="343" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.93644919</resVal>
+</run>
+<run stdNo="39" dsnId="40" runNo="344" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">14.81502199</resVal>
+</run>
+<run stdNo="397" dsnId="398" runNo="345" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.29030535</resVal>
+</run>
+<run stdNo="372" dsnId="373" runNo="346" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.14333392</resVal>
+</run>
+<run stdNo="369" dsnId="370" runNo="347" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.97612654</resVal>
+</run>
+<run stdNo="126" dsnId="127" runNo="348" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.86792579</resVal>
+</run>
+<run stdNo="283" dsnId="284" runNo="349" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.87093101</resVal>
+</run>
+<run stdNo="214" dsnId="215" runNo="350" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.65100322</resVal>
+</run>
+<run stdNo="205" dsnId="206" runNo="351" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.86458399</resVal>
+</run>
+<run stdNo="230" dsnId="231" runNo="352" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.26714269</resVal>
+</run>
+<run stdNo="329" dsnId="330" runNo="353" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">10.61192378</resVal>
+</run>
+<run stdNo="439" dsnId="440" runNo="354" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.50479562</resVal>
+</run>
+<run stdNo="401" dsnId="402" runNo="355" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.15124553</resVal>
+</run>
+<run stdNo="161" dsnId="162" runNo="356" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">12.61340782</resVal>
+</run>
+<run stdNo="16" dsnId="17" runNo="357" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">18.3871999</resVal>
+</run>
+<run stdNo="373" dsnId="374" runNo="358" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.05059793</resVal>
+</run>
+<run stdNo="84" dsnId="85" runNo="359" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">10.0512391</resVal>
+</run>
+<run stdNo="287" dsnId="288" runNo="360" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.32252675</resVal>
+</run>
+<run stdNo="393" dsnId="394" runNo="361" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.45328751</resVal>
+</run>
+<run stdNo="254" dsnId="255" runNo="362" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.15300186</resVal>
+</run>
+<run stdNo="338" dsnId="339" runNo="363" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.01748575</resVal>
+</run>
+<run stdNo="137" dsnId="138" runNo="364" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">14.54886324</resVal>
+</run>
+<run stdNo="337" dsnId="338" runNo="365" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">10.10419396</resVal>
+</run>
+<run stdNo="255" dsnId="256" runNo="366" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.22688586</resVal>
+</run>
+<run stdNo="43" dsnId="44" runNo="367" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">14.51422023</resVal>
+</run>
+<run stdNo="281" dsnId="282" runNo="368" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.54130056</resVal>
+</run>
+<run stdNo="416" dsnId="417" runNo="369" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.74301786</resVal>
+</run>
+<run stdNo="231" dsnId="232" runNo="370" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.12295835</resVal>
+</run>
+<run stdNo="35" dsnId="36" runNo="371" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">15.54429233</resVal>
+</run>
+<run stdNo="18" dsnId="19" runNo="372" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">18.16756112</resVal>
+</run>
+<run stdNo="433" dsnId="434" runNo="373" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">8.869667211</resVal>
+</run>
+<run stdNo="349" dsnId="350" runNo="374" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.51973093</resVal>
+</run>
+<run stdNo="323" dsnId="324" runNo="375" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.22761251</resVal>
+</run>
+<run stdNo="314" dsnId="315" runNo="376" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.14362527</resVal>
+</run>
+<run stdNo="239" dsnId="240" runNo="377" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.60627227</resVal>
+</run>
+<run stdNo="101" dsnId="102" runNo="378" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.29177127</resVal>
+</run>
+<run stdNo="55" dsnId="56" runNo="379" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">12.79244387</resVal>
+</run>
+<run stdNo="295" dsnId="296" runNo="380" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.46998861</resVal>
+</run>
+<run stdNo="225" dsnId="226" runNo="381" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">12.87579847</resVal>
+</run>
+<run stdNo="129" dsnId="130" runNo="382" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.38606441</resVal>
+</run>
+<run stdNo="27" dsnId="28" runNo="383" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">16.89079237</resVal>
+</run>
+<run stdNo="391" dsnId="392" runNo="384" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.01401863</resVal>
+</run>
+<run stdNo="224" dsnId="225" runNo="385" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.04177785</resVal>
+</run>
+<run stdNo="299" dsnId="300" runNo="386" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.8229497</resVal>
+</run>
+<run stdNo="431" dsnId="432" runNo="387" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.51130573</resVal>
+</run>
+<run stdNo="376" dsnId="377" runNo="388" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.59613434</resVal>
+</run>
+<run stdNo="403" dsnId="404" runNo="389" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.1143942</resVal>
+</run>
+<run stdNo="32" dsnId="33" runNo="390" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">15.90714972</resVal>
+</run>
+<run stdNo="142" dsnId="143" runNo="391" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.56496212</resVal>
+</run>
+<run stdNo="113" dsnId="114" runNo="392" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.72248651</resVal>
+</run>
+<run stdNo="3" dsnId="4" runNo="393" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">19.86701593</resVal>
+</run>
+<run stdNo="212" dsnId="213" runNo="394" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.88179964</resVal>
+</run>
+<run stdNo="315" dsnId="316" runNo="395" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.63008204</resVal>
+</run>
+<run stdNo="294" dsnId="295" runNo="396" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.64732362</resVal>
+</run>
+<run stdNo="300" dsnId="301" runNo="397" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.56689146</resVal>
+</run>
+<run stdNo="221" dsnId="222" runNo="398" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.53967735</resVal>
+</run>
+<run stdNo="17" dsnId="18" runNo="399" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">18.25437278</resVal>
+</run>
+<run stdNo="424" dsnId="425" runNo="400" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.59319058</resVal>
+</run>
+<run stdNo="384" dsnId="385" runNo="401" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.72596053</resVal>
+</run>
+<run stdNo="236" dsnId="237" runNo="402" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.76035875</resVal>
+</run>
+<run stdNo="125" dsnId="126" runNo="403" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.03104319</resVal>
+</run>
+<run stdNo="196" dsnId="197" runNo="404" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.8953945</resVal>
+</run>
+<run stdNo="47" dsnId="48" runNo="405" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">13.8515468</resVal>
+</run>
+<run stdNo="10" dsnId="11" runNo="406" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">19.62130035</resVal>
+</run>
+<run stdNo="12" dsnId="13" runNo="407" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">19.27210447</resVal>
+</run>
+<run stdNo="226" dsnId="227" runNo="408" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.78690766</resVal>
+</run>
+<run stdNo="321" dsnId="322" runNo="409" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">10.96947518</resVal>
+</run>
+<run stdNo="121" dsnId="122" runNo="410" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.13254952</resVal>
+</run>
+<run stdNo="145" dsnId="146" runNo="411" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.91126921</resVal>
+</run>
+<run stdNo="366" dsnId="367" runNo="412" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.51043435</resVal>
+</run>
+<run stdNo="318" dsnId="319" runNo="413" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.68249403</resVal>
+</run>
+<run stdNo="93" dsnId="94" runNo="414" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">16.60327316</resVal>
+</run>
+<run stdNo="361" dsnId="362" runNo="415" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.79873862</resVal>
+</run>
+<run stdNo="97" dsnId="98" runNo="416" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">0.5</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">17.43204853</resVal>
+</run>
+<run stdNo="355" dsnId="356" runNo="417" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.19832429</resVal>
+</run>
+<run stdNo="50" dsnId="51" runNo="418" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">13.49126171</resVal>
+</run>
+<run stdNo="406" dsnId="407" runNo="419" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.12701461</resVal>
+</run>
+<run stdNo="165" dsnId="166" runNo="420" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.8252975</resVal>
+</run>
+<run stdNo="356" dsnId="357" runNo="421" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.4</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.09463512</resVal>
+</run>
+<run stdNo="322" dsnId="323" runNo="422" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.8064484</resVal>
+</run>
+<run stdNo="386" dsnId="387" runNo="423" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.4</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.18426352</resVal>
+</run>
+<run stdNo="48" dsnId="49" runNo="424" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.9</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">13.71117945</resVal>
+</run>
+<run stdNo="334" dsnId="335" runNo="425" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.25917399</resVal>
+</run>
+<run stdNo="252" dsnId="253" runNo="426" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.23836606</resVal>
+</run>
+<run stdNo="213" dsnId="214" runNo="427" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">14.80422718</resVal>
+</run>
+<run stdNo="79" dsnId="80" runNo="428" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.9</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">9.775232135</resVal>
+</run>
+<run stdNo="344" dsnId="345" runNo="429" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.3</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">11.69964995</resVal>
+</run>
+<run stdNo="176" dsnId="177" runNo="430" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">12.59914273</resVal>
+</run>
+<run stdNo="374" dsnId="375" runNo="431" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">0.6</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">10.90381244</resVal>
+</run>
+<run stdNo="417" dsnId="418" runNo="432" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.3</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">9.435743493</resVal>
+</run>
+<run stdNo="380" dsnId="381" runNo="433" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.6</facActual>
+<facActual id="B">0.7</facActual>
+<facActual id="C">0.5</facActual>
+<resVal id="1">11.28080417</resVal>
+</run>
+<run stdNo="139" dsnId="140" runNo="434" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">15.76319025</resVal>
+</run>
+<run stdNo="304" dsnId="305" runNo="435" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">0.8</facActual>
+<facActual id="C">0.4</facActual>
+<resVal id="1">12.56569546</resVal>
+</run>
+<run stdNo="261" dsnId="262" runNo="436" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.7</facActual>
+<facActual id="B">1.4</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">12.83552711</resVal>
+</run>
+<run stdNo="62" dsnId="63" runNo="437" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.1</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">11.75721454</resVal>
+</run>
+<run stdNo="248" dsnId="249" runNo="438" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">1.0</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.3</facActual>
+<resVal id="1">13.10488106</resVal>
+</run>
+<run stdNo="67" dsnId="68" runNo="439" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.5</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.1</facActual>
+<resVal id="1">11.50265265</resVal>
+</run>
+<run stdNo="158" dsnId="159" runNo="440" blockNo="0" blockName="Block 1" pointId="11" pointName="Factorial" buildPointId="5" buildPointName="NA" note="" rowStatus="Normal">
+<facActual id="A">0.8</facActual>
+<facActual id="B">1.2</facActual>
+<facActual id="C">0.2</facActual>
+<resVal id="1">13.67070671</resVal>
+</run>
+<responseModel id="1">
+<transform id="0" name="None"/>
+<compModel modelType="Factorial" calcType="CodedCalc" hierarchicalActual="false" terms="7">
+<equationTerm id="0" coef="13.3104046315023" term="Intercept"/>
+<equationTerm id="1" coef="-0.00327946038170975" term="A"/>
+<equationTerm id="2" coef="-0.0464918369827925" term="B"/>
+<equationTerm id="3" coef="0.040602213966322" term="C"/>
+<equationTerm id="4" coef="-0.00793952859873093" term="AB"/>
+<equationTerm id="5" coef="0.00198823850017447" term="AC"/>
+<equationTerm id="6" coef="-1.60712832644424E-05" term="BC"/>
+<equationTerm id="7" term="Curvature"/>
+</compModel>
+</responseModel>
+<optimization models="5">
+<criteria modType="Factor" id="1" goal="InRange" type="Categoric" target="0" limitLow="0" limitHigh="7" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Factor" id="2" goal="InRange" type="Categoric" target="0" limitLow="0" limitHigh="10" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Factor" id="3" goal="InRange" type="Categoric" target="0" limitLow="0" limitHigh="4" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="Response" id="1" goal="None" type="Numeric" target="14.4412765155" limitLow="8.869667211" limitHigh="20.01288582" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Actual" scale="Transform" displayScale="Original"/>
+<criteria modType="POE" id="1" goal="None" type="Numeric" target="Missing" limitLow="Missing" limitHigh="Missing" weightLow="1" weightHigh="1" overlayLow="Missing" overlayHigh="Missing" importance="3" coding="Coded" scale="Transform" displayScale="Original"/>
+</optimization>
+<buildInfo noOfReplicates="1" buildTime="8"/>
+</DEXXMLDoc>
