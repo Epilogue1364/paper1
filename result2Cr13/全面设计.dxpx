@@ -81,8 +81,36 @@
 <graphArea name="Diagnostics" index="0">
 <colorBy type="response" index="0"/>
 </graphArea>
-<graphArea name="Model" index="0" graph="0">
+<graphArea name="Model" graph="0">
 <graphMethod>Interaction</graphMethod>
+<space>
+<codedPoint>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+</graphArea>
+<graphArea name="GraphicalOptimization">
+<graphMethod>Contour</graphMethod>
+<space>
+<codedPoint>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+<codedValue>0</codedValue>
+</codedPoint>
+<axis index="0">0</axis>
+<axis index="1">1</axis>
+<axis index="2">-1</axis>
+<axis index="3">-1</axis>
+</space>
+</graphArea>
+<graphArea name="NumericalOptimization">
+<graphMethod>Contour</graphMethod>
 <space>
 <codedPoint>
 <codedValue>0</codedValue>
