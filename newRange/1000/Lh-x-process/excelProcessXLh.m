@@ -3,7 +3,7 @@
 %用于绘图，看每个齿宽中，最大ΔB所对应的槽宽
 clear;
 clc;
-file_name = ['D:\GitHub\paper1\newRange\1000\Lh-x-process\19.2jx0.1处理Lh.xlsx'];
+file_name = ['D:\GitHub\paper1\newRange\1000\Lh-x-process\19.2jx01处理Lh输出.xlsx'];
 fid = fopen(file_name, 'r');%打开要读取的文件
 % jxh=槽高，jxw=槽宽，cw=极齿宽，jx=间隙，cnz=总槽数，cln=左槽数，crn右槽数
 %设置变量下限
@@ -33,7 +33,7 @@ for jxw=jxw0:s1:jxw1
         cw=round(cw*100)/100;
         for c=c0:1:c1
             outrange=abs((list_data(c+1,5)-list_data(c,5))/list_data(c,5));
-            if outrange<0.02
+            if outrange<0.015
                 Lh=list_data(c,2);
                 output(jxwcell,cwcell)=Lh;
                 break
@@ -47,5 +47,5 @@ for jxw=jxw0:s1:jxw1
     jxwcell=jxwcell+1;
     output;
 end
-xlswrite(file_name, output', 2, 'A1') %输出结果为output的转置，为了后面分析方便而做的更改，该前面的输出顺序太麻烦，所以直接转置
 fclose(fid);
+xlswrite(file_name, output, 9, 'A1') %输出结果为output的转置，为了后面分析方便而做的更改，该前面的输出顺序太麻烦，所以直接转置
