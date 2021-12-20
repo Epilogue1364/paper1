@@ -18,12 +18,11 @@ s1=0.1;
 s2=0.1;
 jxwcell=2;%用于输出结果时的坐标
 cwcell=2;%用于输出结果时的坐标
-output=[21,6];
+output=[21,2];
 list_data=xlsread(file_name, 1, 'A2:E1001')%将数据一同从excel中读出
 %因为读取数据所需要的运算量比较大，如果分步读运行会非常慢
 c0=1;
-c1=9;
-
+c1=19
 
 for jxw=jxw0:s1:jxw1
     output(jxwcell,1)=jxw;
@@ -36,6 +35,8 @@ for jxw=jxw0:s1:jxw1
             break
         end
     end
+c0=c0+10;
+c1=c1+20;
 cwcell=2;
 jxwcell=jxwcell+1;
 output;
